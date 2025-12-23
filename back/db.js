@@ -1,12 +1,7 @@
 // db.js
 import mysql from 'mysql2';
 
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'Tkd2025@.',
-  database: 'trilha_tech'
-});
+//Bloco de código restrito
 
 db.connect(err => {
   if (err) {
